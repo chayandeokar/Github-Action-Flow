@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name : Info
-        run: echo " this is testing pipeline"
+        run: echo " this is testing pipeline workflows"
