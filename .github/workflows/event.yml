@@ -1,0 +1,12 @@
+name: "on push"
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  show-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name : Info
+        run: echo " this is testing pipeline"
