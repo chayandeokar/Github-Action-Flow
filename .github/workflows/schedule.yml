@@ -1,0 +1,12 @@
+name: "schedule cron"
+on:
+  schedule:
+    - cron: "*/2 * * * *"
+
+
+jobs:
+  scheduling:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Info
+        run : echo " this is my scheduling job"
