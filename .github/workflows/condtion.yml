@@ -2,7 +2,7 @@ name: example-workflow
 on: [push]
 jobs:
   hello-world:
-    if: github.repository == 'chayandeokar/Github-Action-Flow'
+    if: github.repository == 'chayandeokar/Github-Acti'
     runs-on: ubuntu-latest
     steps:
       - name: "Hello world"
