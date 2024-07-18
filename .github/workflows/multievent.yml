@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+jobs:
+  helloworld:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: "echo Basic info"
+        run: echo "hello this is multi_event"
